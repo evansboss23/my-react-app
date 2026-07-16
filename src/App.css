@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Navbar Styling */ 
+.navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.navbar > ul {
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 30px;
+  font-size: 1.1rem;
+}
+
+.navbar li:hover {
+  background-color: rgb(44, 44, 44);
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.logo > img {
+  width: auto;
+  height: 100px;
+
+}
+
+/* Banner Styling */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 500px;
+  background-image: url('./images/serene.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.textBanner {
+ background-color: rgba(133, 131, 131, 0.5);
+ padding: 20px;
+ width: fit-content;
+ height: auto;
+ border-radius: 5%;
+}
+
+.textBanner h1, p {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+}
