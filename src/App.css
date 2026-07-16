@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
 }
 /* Navbar Styling */ 
@@ -39,7 +40,7 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 500px;
+  height: calc(100vh - 100px);
   background-image: url('./images/serene.png');
   background-size: cover;
   background-position: center;
@@ -47,7 +48,7 @@
 
 .textBanner {
  background-color: rgba(133, 131, 131, 0.5);
- padding: 20px;
+ padding: 40px;
  width: fit-content;
  height: auto;
  border-radius: 5%;
