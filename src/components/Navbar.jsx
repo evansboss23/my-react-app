@@ -1,4 +1,5 @@
 import logo from "../images/Uchiha.jpg"
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return(
@@ -8,10 +9,12 @@ export default function Navbar() {
                 <img src={logo} alt="Website logo" />
             </div>
             <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Login</li>
-                <li>Sign Up</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About Us</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/login">Login</Link></li>
+                <li><Link to="/signup">Sign Up</Link></li>
             </ul>
 
         </nav>
