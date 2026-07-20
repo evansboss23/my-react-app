@@ -2,11 +2,11 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
-import About from './components/About'
-import Login from './components/Login'
-import Signup from './components/Signup'
-import Services from './components/Services'
-import Contact from './components/Contact'
+import About from './pages/About'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
+import Services from './pages/Services'
+import Contact from './pages/Contact'
 
 function App() {
   return (
